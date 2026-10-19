@@ -90,7 +90,7 @@
  </div>
 </section>
 <section class="feature-section alt" id="notices">
- <div class="wrap"><div class="section-head"><div class="tiny eyebrow-text">things i hope you know</div><h2 class="serif">things I notice about you</h2><p>Not just the big things. The small things too — the ones you might not even realise I pay attention to. Tap a card ♡</p></div>
+ <div class="wrap"><div class="section-head"><div class="tiny eyebrow-text">things i hope you know</div><h2 class="serif">things I notice about you</h2><p>Not just the big things. The small things too, the ones you might not even realise I pay attention to. Tap a card ♡</p></div>
   <div class="feature-grid">
    <button class="feature-card" onclick="openFeature('littleDetails')"><div style="font-size:1.7rem">☕</div><h3>The little details</h3><p>Your sleepy voice, your matcha moments, your love for ducks, and all the little things that make you unmistakably you.</p><span class="tap">there’s more ↗</span></button>
    <button class="feature-card" onclick="openFeature('strength')"><div style="font-size:1.7rem">🌷</div><h3>The way you keep going</h3><p>I hope you give yourself credit for how much you handle, even on the days when you feel like you haven’t done enough.</p><span class="tap">a little reminder ↗</span></button>
@@ -104,13 +104,34 @@
   <div class="star-field">
    <button class="wish-star" onclick="wishStar(0,this)"><span>✧</span><strong>peace</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(1,this)"><span>✦</span><strong>confidence</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(2,this)"><span>✧</span><strong>happiness</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(3,this)"><span>✦</span><strong>new adventures</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(4,this)"><span>✧</span><strong>success</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(5,this)"><span>✦</span><strong>good people</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(6,this)"><span>✧</span><strong>little joys</strong><small>tap to reveal</small></button><button class="wish-star" onclick="wishStar(7,this)"><span>✦</span><strong>our future</strong><small>tap to reveal</small></button>
   </div><p id="wishMessage" class="plan-note" aria-live="polite">8 little stars, 8 wishes. Pick whichever one calls to you.</p>
- </div>
+
+</div>
 </section>
+
 <section class="feature-section alt" id="voice-surprise">
- <div class="wrap"><div class="section-head"><div class="tiny eyebrow-text">the last little surprise</div><h2 class="serif">a message in my voice ♡</h2><p>Because a written message can only do so much. I wanted the last part to feel a little more like I’m there with you.</p></div>
-  <div class="voice-card"><div style="font-size:2.2rem">🎧</div><h3 class="serif">A little hello from Jahid</h3><p>Put your headphones on, get comfy, and press play when you’re ready.</p><audio controls preload="metadata" id="jahidVoice"><source src="jahid-voice-message.m4a" type="audio/mpeg"><source src="jahid-voice-message.m4a" type="audio/mp4">Your browser can play a voice recording here.</audio><p style="font-family:Georgia,serif;font-style:italic;color:#987963">“My dear Bonbon, my mimi, my wifey. I love you so so so much. you mean the entire world to me, and I can't wait to spend a lifetime of memories with you. I hope this is the last birthday we share separated from each other. I love you ducky”</p></div>
- </div>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="tiny eyebrow-text">the last little surprise</div>
+      <h2 class="serif">a message in my voice ♡</h2>
+      <p>Because a written message can only do so much. I wanted the last part to feel a little more like I’m there with you.</p>
+    </div>
+
+    <div class="voice-card">
+      <div style="font-size:2.2rem">🎧</div>
+      <h3 class="serif">A little hello from Jahid</h3>
+      <p>Put your headphones on, get comfy, and press play when you’re ready.</p>
+
+      <audio controls preload="metadata" id="jahidVoice">
+        <source src="./jahid-voice-message.m4a" type="audio/mp4">
+      </audio>
+
+      <p style="font-family:Georgia,serif;font-style:italic;color:#987963">
+        “My dear Bonbon, my mimi, my wifey. I love you so so so much. you mean the entire world to me, and I can't wait to spend a lifetime of memories with you. I hope this is the last birthday we share separated from each other. I love you ducky”
+      </p>
+    </div>
+  </div>
 </section>
+
 
 <section class="letters" id="letters">
  <div class="wrap">
